@@ -27,7 +27,7 @@ require(['jquery','underscore','backbone','io'],function($,_,Backbone,io){
                 require(['homeView']);
             },
             display:function(){
-                require(['displayPrepareModel','displayPrepareView']);
+                require(['displayPrepareView']);
             }
       });
 

@@ -26,16 +26,16 @@
       <file leaf-file-name="layout.jade" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layout.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="344" selection-end="344" vertical-scroll-proportion="-5.44" vertical-offset="0" max-vertical-offset="340">
+            <state line="8" column="0" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="50" selection-start="369" selection-end="369" vertical-scroll-proportion="0.24185249" vertical-offset="63" max-vertical-offset="714">
+            <state line="20" column="26" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="131" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
@@ -44,19 +44,17 @@
       <file leaf-file-name="display_prepare_game.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/display_prepare_game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="57" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+            <state line="43" column="22" selection-start="1378" selection-end="1378" vertical-scroll-proportion="-10.08" vertical-offset="479" max-vertical-offset="1054">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="displayPrepareModel.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="displayPrepareModel.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/javascripts/app/models/displayPrepareModel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="27" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-              <folding>
-                <element signature="e#0#41#0" expanded="false" />
-              </folding>
+            <state line="8" column="30" selection-start="235" selection-end="235" vertical-scroll-proportion="0.23327616" vertical-offset="0" max-vertical-offset="583">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,7 +62,7 @@
       <file leaf-file-name="display_prepare_game.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/app/templates/display_prepare_game.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="19" selection-start="829" selection-end="829" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="476">
+            <state line="24" column="58" selection-start="969" selection-end="985" vertical-scroll-proportion="-14.884615" vertical-offset="21" max-vertical-offset="578">
               <folding />
             </state>
           </provider>
@@ -82,7 +80,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="31" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="782">
+            <state line="23" column="31" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="918">
               <folding />
             </state>
           </provider>
@@ -125,10 +123,10 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/public/javascripts/app/templates/home.html" />
         <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/main.js" />
         <option value="$PROJECT_DIR$/public/javascripts/app/templates/display_prepare_game.html" />
         <option value="$PROJECT_DIR$/public/javascripts/app/views/display_prepare_game.js" />
         <option value="$PROJECT_DIR$/public/javascripts/app/models/displayPrepareModel.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/main.js" />
       </list>
     </option>
   </component>
@@ -164,6 +162,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -410,7 +409,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -538,6 +536,18 @@
         <state line="3" column="16" selection-start="46" selection-end="46" vertical-scroll-proportion="0.09139785" vertical-offset="0" max-vertical-offset="558" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="44" selection-start="107" selection-end="107" vertical-scroll-proportion="0.17495711" vertical-offset="0" max-vertical-offset="583" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="9" selection-start="261" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/app/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="35" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="391">
@@ -553,58 +563,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/views/layout.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="31" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="782">
+        <state line="8" column="0" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="340">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="44" selection-start="107" selection-end="107" vertical-scroll-proportion="0.17495711" vertical-offset="0" max-vertical-offset="583" />
+        <state line="23" column="31" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="918">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/home.js">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="9" selection-start="261" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+        <state line="20" column="26" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="131" max-vertical-offset="714">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/app/templates/display_prepare_game.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="19" selection-start="829" selection-end="829" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="344" selection-end="344" vertical-scroll-proportion="-5.44" vertical-offset="0" max-vertical-offset="340">
+        <state line="24" column="58" selection-start="969" selection-end="985" vertical-scroll-proportion="-14.884615" vertical-offset="21" max-vertical-offset="578">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/display_prepare_game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="57" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+        <state line="43" column="22" selection-start="1378" selection-end="1378" vertical-scroll-proportion="-10.08" vertical-offset="479" max-vertical-offset="1054">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/app/models/displayPrepareModel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="27" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="50" selection-start="369" selection-end="369" vertical-scroll-proportion="0.24185249" vertical-offset="63" max-vertical-offset="714">
+        <state line="8" column="30" selection-start="235" selection-end="235" vertical-scroll-proportion="0.23327616" vertical-offset="0" max-vertical-offset="583">
           <folding />
         </state>
       </provider>
