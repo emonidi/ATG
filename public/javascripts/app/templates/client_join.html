@@ -1,0 +1,32 @@
+<script type="text/x-handlebars-template" id="client_join">
+    <div class="row">
+            <div class="row">
+                <div class="text-center nameHolder hidden notification">
+                    <h1>Please enter your name</h1>
+                </div>
+            </div>
+           <div class="row">
+               <div class="col-md-6 col-md-offset-3 text-center">
+                   <input type="name" id="clientName" class="form-control">
+               </div>
+           </div>
+           <div class="row text-center nameValidation" style="display:none">
+               <span class="bg-danger">Please enter your name</span>
+           </div>
+           <div class="row text-center" style="padding-top:20px">
+                   <a href="#" id="joinButton" class="btn btn-success">Join Game</a>
+           </div>
+
+    </div>
+    <div class="row noServer hidden notification">
+        <div class="col-md-12 text-center">
+            <h1 class="bg-danger">No server listening</h1>
+        </div>
+    </div>
+    <div class="row noDisplay hidden notification">
+        <div class="col-md-12 text-center">
+            <h1 class="bg-danger">No display device detected</h1>
+            <strong>Please connect with other device and set the number of players</strong>
+        </div>
+    </div>
+</script>

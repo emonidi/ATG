@@ -6,7 +6,7 @@ define('displayPrepareModel',function(){
         defaults:{
             playersNumber:0,
             playersToConnect :0,
-            connectedPlayers:0
+            connectedPlayers:0,
         },
         initialize:function(){
             var Super = this;

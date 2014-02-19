@@ -23,37 +23,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="layout.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/layout.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="340">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="26" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="131" max-vertical-offset="714">
+            <state line="5" column="43" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="1020">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="display_prepare_game.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="display_prepare_game.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/display_prepare_game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="22" selection-start="1378" selection-end="1378" vertical-scroll-proportion="-10.08" vertical-offset="479" max-vertical-offset="1054">
+            <state line="42" column="11" selection-start="1817" selection-end="1817" vertical-scroll-proportion="0.47358835" vertical-offset="454" max-vertical-offset="1445">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="displayPrepareModel.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/app/models/displayPrepareModel.js">
+      <file leaf-file-name="client_join.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/client_join.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="30" selection-start="235" selection-end="235" vertical-scroll-proportion="0.23327616" vertical-offset="0" max-vertical-offset="583">
+            <state line="37" column="18" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.0" vertical-offset="407" max-vertical-offset="1224">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client_join.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/app/templates/client_join.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="18" selection-start="278" selection-end="278" vertical-scroll-proportion="-1.3461539" vertical-offset="67" max-vertical-offset="629">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="player.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/app/models/player.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="20" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="306">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="players.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/app/collections/players.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="3" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="238">
               <folding />
             </state>
           </provider>
@@ -62,7 +80,7 @@
       <file leaf-file-name="display_prepare_game.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/app/templates/display_prepare_game.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="58" selection-start="969" selection-end="985" vertical-scroll-proportion="-14.884615" vertical-offset="21" max-vertical-offset="578">
+            <state line="28" column="40" selection-start="1126" selection-end="1142" vertical-scroll-proportion="-16.692308" vertical-offset="42" max-vertical-offset="663">
               <folding />
             </state>
           </provider>
@@ -71,16 +89,16 @@
       <file leaf-file-name="home.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="9" selection-start="261" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="442">
+            <state line="10" column="31" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
+      <file leaf-file-name="displayPrepareModel.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/app/models/displayPrepareModel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="31" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="918">
+            <state line="9" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
               <folding />
             </state>
           </provider>
@@ -89,15 +107,16 @@
       <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/app/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="35" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="391">
+            <state line="12" column="95" selection-start="663" selection-end="663" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="391">
               <folding>
-                <marker date="1392615446768" expanded="false" signature="73:90" placeholder="..." />
-                <marker date="1392615446768" expanded="true" signature="103:727" placeholder="..." />
-                <marker date="1392615446768" expanded="true" signature="145:716" placeholder="..." />
-                <marker date="1392615446768" expanded="true" signature="182:701" placeholder="..." />
-                <marker date="1392615446768" expanded="true" signature="223:302" placeholder="..." />
-                <marker date="1392615446768" expanded="true" signature="343:420" placeholder="..." />
-                <marker date="1392615446768" expanded="true" signature="466:682" placeholder="..." />
+                <marker date="1392747472806" expanded="false" signature="73:90" placeholder="..." />
+                <marker date="1392747472806" expanded="true" signature="103:742" placeholder="..." />
+                <marker date="1392747472806" expanded="true" signature="145:731" placeholder="..." />
+                <marker date="1392747472806" expanded="true" signature="145:731" placeholder="..." />
+                <marker date="1392747472806" expanded="true" signature="182:716" placeholder="..." />
+                <marker date="1392747472806" expanded="true" signature="223:302" placeholder="..." />
+                <marker date="1392747472806" expanded="true" signature="343:420" placeholder="..." />
+                <marker date="1392747472806" expanded="true" signature="466:697" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -113,20 +132,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/views/display.jade" />
-        <option value="$PROJECT_DIR$/public/javascripts/routes/routes.js" />
         <option value="$PROJECT_DIR$/public/javascripts/require.js" />
         <option value="$PROJECT_DIR$/public/javascripts/app.js" />
         <option value="$PROJECT_DIR$/views/index.jade" />
         <option value="$PROJECT_DIR$/public/javascripts/app/views/home.js" />
         <option value="$PROJECT_DIR$/views/layout.jade" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/app/templates/home.html" />
         <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/app/models/player.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/app/collections/players.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/app/templates/home.html" />
         <option value="$PROJECT_DIR$/public/javascripts/main.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/app/models/displayPrepareModel.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/app/templates/client_join.html" />
+        <option value="$PROJECT_DIR$/public/javascripts/app/views/client_join.js" />
         <option value="$PROJECT_DIR$/public/javascripts/app/templates/display_prepare_game.html" />
         <option value="$PROJECT_DIR$/public/javascripts/app/views/display_prepare_game.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/app/models/displayPrepareModel.js" />
       </list>
     </option>
   </component>
@@ -319,77 +340,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bowling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bowling" />
+              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bowling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bowling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bowling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bowling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backbone" />
+              <option name="myItemId" value="collections" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -474,7 +433,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2532943" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -501,26 +460,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="56" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/backbone.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="27455" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/meta.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="23" selection-start="1267" selection-end="1267" vertical-scroll-proportion="0.3327616" vertical-offset="690" max-vertical-offset="6290" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/underscore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="22882" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/require.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2067" column="9" selection-start="82226" selection-end="82226" vertical-scroll-proportion="0.9631579" vertical-offset="34590" max-vertical-offset="35241" />
@@ -541,66 +480,91 @@
         <state line="6" column="44" selection-start="107" selection-end="107" vertical-scroll-proportion="0.17495711" vertical-offset="0" max-vertical-offset="583" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/home.js">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="9" selection-start="261" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+        <state line="23" column="31" selection-start="547" selection-end="547" vertical-scroll-proportion="0.30017152" vertical-offset="216" max-vertical-offset="918" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="340" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="43" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/app/models/player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="20" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/app/collections/players.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="3" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/app/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="35" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="391">
+        <state line="12" column="95" selection-start="663" selection-end="663" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="391">
           <folding>
-            <marker date="1392615446768" expanded="false" signature="73:90" placeholder="..." />
-            <marker date="1392615446768" expanded="true" signature="103:727" placeholder="..." />
-            <marker date="1392615446768" expanded="true" signature="145:716" placeholder="..." />
-            <marker date="1392615446768" expanded="true" signature="182:701" placeholder="..." />
-            <marker date="1392615446768" expanded="true" signature="223:302" placeholder="..." />
-            <marker date="1392615446768" expanded="true" signature="343:420" placeholder="..." />
-            <marker date="1392615446768" expanded="true" signature="466:682" placeholder="..." />
+            <marker date="1392747472806" expanded="false" signature="73:90" placeholder="..." />
+            <marker date="1392747472806" expanded="true" signature="103:742" placeholder="..." />
+            <marker date="1392747472806" expanded="true" signature="145:731" placeholder="..." />
+            <marker date="1392747472806" expanded="true" signature="145:731" placeholder="..." />
+            <marker date="1392747472806" expanded="true" signature="182:716" placeholder="..." />
+            <marker date="1392747472806" expanded="true" signature="223:302" placeholder="..." />
+            <marker date="1392747472806" expanded="true" signature="343:420" placeholder="..." />
+            <marker date="1392747472806" expanded="true" signature="466:697" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.jade">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/client_join.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="31" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="918">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="26" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="131" max-vertical-offset="714">
+        <state line="37" column="18" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.0" vertical-offset="407" max-vertical-offset="1224">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/app/templates/display_prepare_game.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="58" selection-start="969" selection-end="985" vertical-scroll-proportion="-14.884615" vertical-offset="21" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/display_prepare_game.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="22" selection-start="1378" selection-end="1378" vertical-scroll-proportion="-10.08" vertical-offset="479" max-vertical-offset="1054">
+        <state line="28" column="40" selection-start="1126" selection-end="1142" vertical-scroll-proportion="-16.692308" vertical-offset="42" max-vertical-offset="663">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/app/models/displayPrepareModel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="30" selection-start="235" selection-end="235" vertical-scroll-proportion="0.23327616" vertical-offset="0" max-vertical-offset="583">
+        <state line="9" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="31" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/app/templates/client_join.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="18" selection-start="278" selection-end="278" vertical-scroll-proportion="-1.3461539" vertical-offset="67" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/display_prepare_game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="11" selection-start="1817" selection-end="1817" vertical-scroll-proportion="0.47358835" vertical-offset="454" max-vertical-offset="1445">
           <folding />
         </state>
       </provider>
