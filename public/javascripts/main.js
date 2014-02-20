@@ -15,6 +15,7 @@ require.config({
         'player':'app/models/player',
         'players':'app/collections/players',
         'clientJoinView':'app/views/client_join',
+        'gameDisplay':'app/views/game_display',
         'io':"/socket.io/socket.io.js"
     },
     shim:{
@@ -28,7 +29,8 @@ require(['jquery','underscore','backbone','io'],function($,_,Backbone,io){
             routes:{
                 '':'home',
                 'display':'display',
-                'client':'client'
+                'client':'client',
+                'game/display':'gameDisplay'
             },
 
             home:function(){
@@ -44,6 +46,11 @@ require(['jquery','underscore','backbone','io'],function($,_,Backbone,io){
             },
             client:function(){
                 require(['clientJoinView'],function(view){
+                    view.render();
+                });
+            },
+            gameDisplay:function(){
+                require(['gameDisplay'],function(view){
                     view.render();
                 });
             }

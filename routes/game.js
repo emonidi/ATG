@@ -10,6 +10,10 @@ exports.prepare = function(data,socket){
 		data.playersToConnect = playersNumber - connectedPlayers;
 		data.players = players;
 		data.playersNumber = playersNumber;
+		if(data.playersToConnect === 0){
+			broadcastBeginGame();
+			//return false;
+		}
 		return data;
 	}
 	
@@ -22,6 +26,10 @@ exports.prepare = function(data,socket){
 		players.push({name:data.name,id:players.length+1});
 		socket.broadcast.emit('playerJoined',processData(data));
 
+	}
+
+	function broadcastBeginGame(){
+		socket.broadcast.emit('begin_game');
 	}
 
 	sendData();

@@ -2,7 +2,8 @@ define('displayPrepareView',function(){
     var view = Backbone.View.extend({
         el:".main",
         events:{
-            "change #playersNumber":"onPlayersNumberChanged"
+            "click #playersNumberBtn":"onPlayersNumberChanged",
+
         },
         initialize:function(){
             //Super is to have global access to the the View (like self or that);
@@ -32,8 +33,10 @@ define('displayPrepareView',function(){
             this.$el.html(temp);
             $("#playersNumber").val(this.model.get('playersNumber'))
         },
-        onPlayersNumberChanged:function(){
+        onPlayersNumberChanged:function(ev){
+            ev.preventDefault();
             this.model.set('playersNumber',$("#playersNumber").val());
+            $('.form-horizontal').addClass('hidden');
         },
         update:function(){
 
@@ -73,6 +76,12 @@ define('displayPrepareView',function(){
                Super.model.set(data);
                Super.update();
             });
+
+            Super.socket.on('begin_game',function(){
+                setTimeout(function(){
+                    window.location.hash = "game/display"
+                },1000)
+            })
         }
     });
 
