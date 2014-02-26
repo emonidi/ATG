@@ -65,14 +65,12 @@ define('displayPrepareView',function(){
             Super.socket.on('prepare_game',function(data){
                 //when recieving a message
                 Super.model.set(data);
-                console.log(data);
                 //trigger the update function to update the view
                 //I am sure there should be a better way
                 Super.update();
             });
 
             Super.socket.on('playerJoined',function(data){
-               console.log(data);
                Super.model.set(data);
                Super.update();
             });

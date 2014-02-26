@@ -16,10 +16,13 @@ require.config({
         'players':'app/collections/players',
         'clientJoinView':'app/views/client_join',
         'gameDisplay':'app/views/game_display',
-        'io':"/socket.io/socket.io.js"
+        'gameClient':'app/views/game_client',
+        'io':"/socket.io/socket.io.js",
+        'Game':'app/Game'
     },
     shim:{
-        'displayPrepareView':['displayPrepareModel']
+        'displayPrepareView':['displayPrepareModel'],
+        'gameDisplay':['Game']
     }
 })
 
@@ -30,7 +33,8 @@ require(['jquery','underscore','backbone','io'],function($,_,Backbone,io){
                 '':'home',
                 'display':'display',
                 'client':'client',
-                'game/display':'gameDisplay'
+                'game/display':'gameDisplay',
+                'game_client/:playerName':'gameClient',
             },
 
             home:function(){
@@ -46,13 +50,18 @@ require(['jquery','underscore','backbone','io'],function($,_,Backbone,io){
             },
             client:function(){
                 require(['clientJoinView'],function(view){
-                    view.render();
+
                 });
             },
             gameDisplay:function(){
                 require(['gameDisplay'],function(view){
                     view.render();
                 });
+            },
+            gameClient:function(){
+                require(['gameClient'],function(view){
+                view.render();
+            })
             }
       });
 

@@ -1,5 +1,5 @@
 <script type="text/x-handlebars-template" id="client_join">
-    <div class="row">
+    <div class="row  nameForm">
             <div class="row">
                 <div class="text-center nameHolder hidden notification">
                     <h1>Please enter your name</h1>
@@ -27,6 +27,12 @@
         <div class="col-md-12 text-center">
             <h1 class="bg-danger">No display device detected</h1>
             <strong>Please connect with other device and set the number of players</strong>
+        </div>
+    </div>
+    <div class="row hidden waitingForPlayers">
+      <div class="col-md-12 text-center">
+            <h1 class="bg-danger">Waiting for other players to connect</h1>
+            
         </div>
     </div>
 </script>

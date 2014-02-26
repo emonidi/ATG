@@ -1,0 +1,21 @@
+<script type="text/x-handlebars-template">
+    <div class="row">
+        <div class="col-sm-12 text-center">
+            <h1><%= player.get('name') %></h1>
+        </div>
+    </div>
+            <%=player.get('active')%>
+    <div class="row pins <%= player.get('active') ? "" : 'hidden' %>">
+        <% for(var i = 0; i<10; i++) { %>
+            <div class="panel panel-primary col-sm-1 col-sm-offset-1">
+                <div class="panel-body text-center">
+                  <h2 style="padding:0;margin:0 auto;">
+                    <a href='' class='pin' data-pins='<%= i+1 %>' style="display:block">  
+                    <%= i+1 %>
+                    </a>
+                  </h2>
+                </div>
+            </div>
+        <% } %>
+    </div>
+</script>

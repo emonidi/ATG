@@ -15,6 +15,7 @@ define('clientJoinView',['player'],function(player){
                });
                this.model = new player();
                this.setListeners();
+               this.render();
            },
            render:function(){
                var Super = this;
@@ -29,12 +30,21 @@ define('clientJoinView',['player'],function(player){
            },
            setListeners:function(){
                var Super = this;
-               this.model.on('change',function(){
+               this.model.on('change:name',function(){
                     Super.socket.emit('prepare_game',Super.model);
+
                });
 
                Super.socket.on('prepare_game',function(data){
                    console.log(data);
+               });
+
+               Super.socket.on('begin_game',function(data){
+                    window.location.hash="#game_client/"+Super.model.get('id');
+               });
+
+               Super.socket.on('joinedConfirmation',function(data){
+                   Super.model.set('id',data.id);
                });
            },
            getGame:function(){
@@ -58,7 +68,12 @@ define('clientJoinView',['player'],function(player){
                }else{
                    $('.nameValidation').hide();
                    Super.model.set('name',clientName);
+                   Super.showWaitingMessage();
                }
+           },
+           showWaitingMessage:function(){
+               $(".nameForm").addClass('hidden');
+               $(".waitingForPlayers").show().removeClass('hidden');
            }
     });
 

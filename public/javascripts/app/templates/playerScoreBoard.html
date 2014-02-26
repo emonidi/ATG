@@ -1,0 +1,23 @@
+<script type="text/x-handlebars-template">
+    <div class="row">
+        <div class="col-sm-1">
+           <%= player.id %>. <%= player.name %>
+        </div>
+        <div class="col-sm-10">
+            <div class="row">
+                <% for(var i = 0; i < 9; i++) { %>
+                <div class="col-sm-1" style="border:solid 1px #333;height:50px;padding:0">
+                    <div class="result player-<%= player.id %> round-<%= i+1 %>">
+
+                    </div>
+                    <div style="height:20px;width:20px;float:right;border-left:solid 1px #333;border-bottom:solid 1px #333">
+
+                    </div>
+                </div>
+
+                <% } %>
+            </div>
+        </div>
+        </div>
+    </div>
+</script>

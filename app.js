@@ -45,4 +45,24 @@ io.sockets.on('connection',function(socket){
 		socket.on('prepare_game',function(data){
 			game.prepare(data,socket);
 		});
+
+		socket.on('getPlayers',function(data){
+			game.getPlayers(data,socket);
+		})
+
+		socket.on('getPlayer',function(data){
+			game.getPlayer(data,socket);
+		})
+
+		socket.on('activePlayer',function(data){
+			game.changePlayer(data,socket);
+		})
+
+		socket.on('playerChanged',function(data){
+			game.playerChanged(data,socket);
+		})
+
+		socket.on('playerTurn',function(data){
+			game.playerTurn(data,socket);
+		})
 });
